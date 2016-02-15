@@ -1,0 +1,43 @@
+<html>
+	<head>
+	<title>If I Left Now</title>
+	
+	<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,height=device-height,target-densitydpi=device-dpi,user-scalable=yes" />
+
+	<meta name="mobile-web-app-capable" content="yes">
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<link href='style.css' rel='stylesheet' type='text/css'>
+	</head>
+<body>
+	<div id='message'>If you left now for <span id="homework">home</span> it would take you</div>
+	<div id='result'></div>
+	<div id='message2'>In other words you'd arrive at</div>
+	<div id='result2'></div>
+	<div id='menu'></div>
+	<div id='bottom'>
+		
+	<p>None of this information is stored except on your device.</p>
+	
+	<form name="settings" id="settings">
+	<p>Home: <input type="text" size="50" id="home" name="home"></p>
+	<p>Work: <input type="text" size="50" id="work" name="work"></p>
+	<p>Format: <input type="radio" value="twentyfour" name="format"> Military (24 hours) <input type="radio" value="twelve" name="format"> Traditional (12 hours)</p>
+	<p>Theme: <input type="radio" value="brown" name="theme"> Brown <input type="radio" value="blue" name="theme"> Blue</p>
+	<p>API Key: <input type="text" value="" name="api" id="api" /></p>
+	<p>Background map zoom level (0-21): <input type="text" size="10" value="12" id="zoom" name="zoom"></p>
+	<p>In order to limit the number of API calls made, this web app only requests minute-by-minute traffic updates between 7 and 9am, and between 4 and 6pm. You can change that below:</p>
+	<p>Morning: <input type="text" size="5" id="startm" name="startm"> - <input type="text" size="5" id="endm" name="endm"> </p>
+	<p>Evening: <input type="text" size="5" id="starte" name="starte"> - <input type="text" size="5" id="ende" name="ende"> </p>
+	</form>
+	<p><a href="#" id="close">Save and reload</a></p>
+</div>
+
+<div id="map"></div>
+
+<script type="text/javascript" src="run.js"></script>
+
+</body>
+</html>
