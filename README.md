@@ -6,6 +6,8 @@
 
 [![YouTube overview video of the project](http://img.youtube.com/vi/O5jXcVxr_nQ/0.jpg)](http://www.youtube.com/watch?v=O5jXcVxr_nQ)
 
+There's more information on my blog: [http://www.rioleo.org/commuteclock](http://www.rioleo.org/commuteclock)
+
 ## Features
 
 * All information is stored locally on the device.
