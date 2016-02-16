@@ -1,73 +1,71 @@
-     /* Set a size for our map container, the Google Map will take up 100% of this container */
-            body {
-	            margin:0;
-	            padding:0;
-            }
-            #map {
-                width: 100%;
-                height: 110%;
-            }
-            #homework {
-	           
-            }
-            #message {
-	            text-transform: uppercase;
-	            font-size:20px;
-	            color:#fff;
-	            font-weight:100;
-	            z-index:100;
-font-family: 'Lato', sans-serif;
-left:50px;
-	            top:30px;
-	            position:absolute;
-            }
-            #menu {
-	            background: url(menu55.png);
-	            width:16px;
-	            height:16px;
-	            position:absolute;
-	            z-index:100;
-	            right:20px;
-	            bottom:30px;
-            }
-            #message2 {
-	            text-transform: uppercase;
-	            font-size:20px;
-	            color:#fff;
-	            font-weight:100;
-	            z-index:100;
-font-family: 'Lato', sans-serif;
-left:50px;
-	            top:160px;
-	            position:absolute;
-            }
-            #result {
-	            color:#fff;
-	            z-index:100;
-	            left:50px;
-	            top:40px;
-	            position:absolute;
-	            font-size:100px;
-	            font-weight:100;
-font-family: 'Lato', sans-serif;	         
-            }
-            #bottom {
-	            padding:20px;
-	            background:#fff;
-	            font-family: 'Lato', sans-serif;
-	            width:100%;
-	            height:400px;
-	            top:370px;
-	            z-index:100;
-	            position:absolute;
-            }
-            #result2 {
-	            color:#fff;
-	            z-index:100;
-	            left:50px;
-	            top:180px;
-	            position:absolute;
-	            font-size:100px;
-	            font-weight:100;
-font-family: 'Lato', sans-serif;	         
-            }
+/* Set a size for our map container, the Google Map will take up 100% of this container */
+body {
+    margin: 0;
+    padding: 0;
+}
+#map {
+    width: 100%;
+    height: 110%;
+}
+#homework { }
+#message {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 100;
+    z-index: 100;
+    font-family: 'Lato', sans-serif;
+    left: 50px;
+    top: 30px;
+    position: absolute;
+}
+#menu {
+    background: url(menu55.png);
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    z-index: 100;
+    right: 20px;
+    bottom: 30px;
+}
+#message2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 100;
+    z-index: 100;
+    font-family: 'Lato', sans-serif;
+    left: 50px;
+    top: 160px;
+    position: absolute;
+}
+#result {
+    color: #fff;
+    z-index: 100;
+    left: 50px;
+    top: 40px;
+    position: absolute;
+    font-size: 100px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+}
+#bottom {
+    padding: 20px;
+    background: #fff;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 400px;
+    top: 370px;
+    z-index: 100;
+    position: absolute;
+}
+#result2 {
+    color: #fff;
+    z-index: 100;
+    left: 50px;
+    top: 180px;
+    position: absolute;
+    font-size: 100px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+}
